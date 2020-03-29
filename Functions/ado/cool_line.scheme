@@ -1,0 +1,47 @@
+#include s2color
+
+color background white
+color plotregion white
+color graphregion white
+color plotregion_line black
+linewidth legend none
+
+color p black
+color p1 red
+color p2 blue
+color p3 green
+color p4 maroon
+color p5 purple
+color p6 magenta
+
+linewidth p1 thick 
+linewidth p2 thick 
+linewidth p3 thick 
+linewidth p4 thick 
+linewidth p5 thick 
+linewidth p6 thick 
+
+linepattern p1 solid 
+linepattern p2 longdash 
+linepattern p3 shortdash 
+linepattern p4 shortdash_dot 
+linepattern p5 dot 
+linepattern p6 longdash_dot
+
+color xyline black
+
+linestyle   legend              lwidth(none)
+
+linestyle   legend              white
+margin      legend              white  
+margin      legend_boxmargin    white  
+margin      legend_key_region   white  
+
+
+yesno draw_major_hgrid no
+yesno draw_minor_hgrid no
+yesno draw_major_vgrid no
+yesno draw_minor_vgrid no
+
+color legend_line       white
+color legend_line        white
